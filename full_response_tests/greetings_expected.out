@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Greetings File!</h1>
+<p>Here is a paragraph!</p>
+</body>
+</html>
