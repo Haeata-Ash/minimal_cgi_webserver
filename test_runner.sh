@@ -7,7 +7,7 @@ count=0
 for test in status_tests/*.sh; do
     name=$(basename $test .sh)
     result="$(bash $test)"
-    count=$((count+1))
+    count=$(($count+1))
     if $result; then
         echo "$name passed";
     else
@@ -27,7 +27,7 @@ count=0
 for test in header_tests/*.sh; do
     name=$(basename $test .sh)
     result="$(bash $test)"
-    count=$((count+1))
+    count=$(($count+1))
     if $result; then
         echo "$name passed";
     else
@@ -46,7 +46,7 @@ count=0
 for test in body_tests/*.sh; do
     name=$(basename $test .sh)
     result="$(bash $test)"
-    count=$((count+1))
+    count=$(($count+1))
     if $result; then
         echo "$name passed";
     else
@@ -65,7 +65,7 @@ count=0
 for test in full_response_tests/*.sh; do
     name=$(basename $test .sh)
     result="$(bash $test)"
-    count=$((count+1))
+    count=$(($count+1))
     if $result; then
         echo "$name passed";
     else
