@@ -20,7 +20,7 @@ Accepted content-types:
 - `image/jpeg`
 - `text/xml`
 
-The webserver is capable of sending an accepting gzip encoded packets.
+The webserver is capable of sending an accepting gzip encoded content.
 
 ## Configuration
 A path to a configuration file must be passed as an argument when starting the webserver. The configuration file is a simple text file. An example configuration file is provided.
